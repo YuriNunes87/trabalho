@@ -1,24 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Este é um projeto Next.js para o exercício de cadastro de imóvel comercial da AdministreFácil.
 
-## Getting Started
+## Tela implementada
 
-First, run the development server:
+A aplicação inclui:
+
+- Página inicial com link para a ficha de cadastro
+- Componente `FichaImovelComercial` com os campos obrigatórios:
+  - Razão Social
+  - Nome Fantasia
+  - CNPJ
+  - Inscrição Estadual
+  - E-mail
+  - Nome do Responsável
+- Rota funcional em `/ficha-imovel-comercial`
+
+## Como executar
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) e acesse `/ficha-imovel-comercial`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Observações
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Todo o desenvolvimento foi realizado na branch `developer`, deixando `main` separada como linha base do scaffold inicial.
 
 ## Learn More
 
